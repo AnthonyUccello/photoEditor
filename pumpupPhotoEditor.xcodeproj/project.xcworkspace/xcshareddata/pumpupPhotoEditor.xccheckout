@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C17CFC40-96FC-48EF-B9A9-AF23829204EC</string>
+	<key>IDESourceControlProjectName</key>
+	<string>pumpupPhotoEditor</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>620B659B6B7224845F86D03DF4A8A9FF01B336DD</key>
+		<string>https://github.com/AnthonyUccello/photoEditor.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>pumpupPhotoEditor.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>620B659B6B7224845F86D03DF4A8A9FF01B336DD</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/AnthonyUccello/photoEditor.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>620B659B6B7224845F86D03DF4A8A9FF01B336DD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>620B659B6B7224845F86D03DF4A8A9FF01B336DD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>pumpupPhotoEditor</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface TakePhotoViewController : UIViewController <UINavigationControllerDelegate,UIImagePickerControllerDelegate>
 
 @end
 

@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		4984FDC619DB11F2004A1440 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4984FDC519DB11F2004A1440 /* main.m */; };
 		4984FDC919DB11F2004A1440 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4984FDC819DB11F2004A1440 /* AppDelegate.m */; };
-		4984FDCC19DB11F2004A1440 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4984FDCB19DB11F2004A1440 /* ViewController.m */; };
+		4984FDCC19DB11F2004A1440 /* TakePhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4984FDCB19DB11F2004A1440 /* TakePhotoViewController.m */; };
 		4984FDCF19DB11F2004A1440 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4984FDCD19DB11F2004A1440 /* Main.storyboard */; };
 		4984FDD119DB11F2004A1440 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4984FDD019DB11F2004A1440 /* Images.xcassets */; };
 		4984FDD419DB11F2004A1440 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4984FDD219DB11F2004A1440 /* LaunchScreen.xib */; };
 		4984FDE019DB11F2004A1440 /* pumpupPhotoEditorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4984FDDF19DB11F2004A1440 /* pumpupPhotoEditorTests.m */; };
+		4984FDEC19DB181F004A1440 /* EditPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4984FDEB19DB181F004A1440 /* EditPhotoViewController.m */; };
+		4984FDEF19DB651D004A1440 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 4984FDEE19DB651D004A1440 /* Utility.m */; };
+		49C7FF8F19DCEA030050FDC2 /* DragLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C7FF8E19DCEA030050FDC2 /* DragLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +35,20 @@
 		4984FDC519DB11F2004A1440 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4984FDC719DB11F2004A1440 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4984FDC819DB11F2004A1440 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4984FDCA19DB11F2004A1440 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4984FDCB19DB11F2004A1440 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4984FDCA19DB11F2004A1440 /* TakePhotoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TakePhotoViewController.h; sourceTree = "<group>"; };
+		4984FDCB19DB11F2004A1440 /* TakePhotoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TakePhotoViewController.m; sourceTree = "<group>"; };
 		4984FDCE19DB11F2004A1440 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4984FDD019DB11F2004A1440 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4984FDD319DB11F2004A1440 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4984FDD919DB11F2004A1440 /* pumpupPhotoEditorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pumpupPhotoEditorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4984FDDE19DB11F2004A1440 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4984FDDF19DB11F2004A1440 /* pumpupPhotoEditorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pumpupPhotoEditorTests.m; sourceTree = "<group>"; };
+		4984FDEA19DB181F004A1440 /* EditPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditPhotoViewController.h; sourceTree = "<group>"; };
+		4984FDEB19DB181F004A1440 /* EditPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditPhotoViewController.m; sourceTree = "<group>"; };
+		4984FDED19DB651D004A1440 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		4984FDEE19DB651D004A1440 /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		49C7FF8D19DCEA030050FDC2 /* DragLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragLabel.h; sourceTree = "<group>"; };
+		49C7FF8E19DCEA030050FDC2 /* DragLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,12 +92,18 @@
 			children = (
 				4984FDC719DB11F2004A1440 /* AppDelegate.h */,
 				4984FDC819DB11F2004A1440 /* AppDelegate.m */,
-				4984FDCA19DB11F2004A1440 /* ViewController.h */,
-				4984FDCB19DB11F2004A1440 /* ViewController.m */,
+				4984FDCA19DB11F2004A1440 /* TakePhotoViewController.h */,
+				4984FDCB19DB11F2004A1440 /* TakePhotoViewController.m */,
 				4984FDCD19DB11F2004A1440 /* Main.storyboard */,
 				4984FDD019DB11F2004A1440 /* Images.xcassets */,
 				4984FDD219DB11F2004A1440 /* LaunchScreen.xib */,
 				4984FDC319DB11F2004A1440 /* Supporting Files */,
+				4984FDEA19DB181F004A1440 /* EditPhotoViewController.h */,
+				4984FDEB19DB181F004A1440 /* EditPhotoViewController.m */,
+				4984FDED19DB651D004A1440 /* Utility.h */,
+				4984FDEE19DB651D004A1440 /* Utility.m */,
+				49C7FF8D19DCEA030050FDC2 /* DragLabel.h */,
+				49C7FF8E19DCEA030050FDC2 /* DragLabel.m */,
 			);
 			path = pumpupPhotoEditor;
 			sourceTree = "<group>";
@@ -168,9 +183,11 @@
 				TargetAttributes = {
 					4984FDBF19DB11F2004A1440 = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = 4L7C8RLV53;
 					};
 					4984FDD819DB11F2004A1440 = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = 4L7C8RLV53;
 						TestTargetID = 4984FDBF19DB11F2004A1440;
 					};
 				};
@@ -219,9 +236,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4984FDCC19DB11F2004A1440 /* ViewController.m in Sources */,
+				4984FDCC19DB11F2004A1440 /* TakePhotoViewController.m in Sources */,
 				4984FDC919DB11F2004A1440 /* AppDelegate.m in Sources */,
+				4984FDEF19DB651D004A1440 /* Utility.m in Sources */,
 				4984FDC619DB11F2004A1440 /* main.m in Sources */,
+				49C7FF8F19DCEA030050FDC2 /* DragLabel.m in Sources */,
+				4984FDEC19DB181F004A1440 /* EditPhotoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,9 +365,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = pumpupPhotoEditor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -355,9 +378,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = pumpupPhotoEditor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -365,6 +391,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -376,6 +404,7 @@
 				INFOPLIST_FILE = pumpupPhotoEditorTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pumpupPhotoEditor.app/pumpupPhotoEditor";
 			};
 			name = Debug;
@@ -384,6 +413,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -391,6 +422,7 @@
 				INFOPLIST_FILE = pumpupPhotoEditorTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pumpupPhotoEditor.app/pumpupPhotoEditor";
 			};
 			name = Release;
@@ -414,6 +446,7 @@
 				4984FDE519DB11F2004A1440 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4984FDE619DB11F2004A1440 /* Build configuration list for PBXNativeTarget "pumpupPhotoEditorTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +455,7 @@
 				4984FDE819DB11F2004A1440 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
