@@ -10,7 +10,6 @@
 
 @implementation DragLabel
 
-
 -(void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event
 {
     NSLog(@"move detected");
